@@ -1,0 +1,43 @@
+body {
+  background-color: #38003C;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cont {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  margin: 100px auto 50px;
+}
+
+.login-form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.login-form input[type="text"], .login-form input[type="password"] {
+
+  display: block;
+  margin: 10px auto;
+  background: #a87fab;
+  border: 0;
+  width: 45%;
+  height: 30px;
+  color: white;
+  padding: 0 2.5%;
+  border-radius: 20px;
+}
+
+.login-form input[type="submit"] {
+  width: 15%;
+  height: 30px;
+  background-color: #00ff87;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #38003C;
+}

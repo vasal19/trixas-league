@@ -1,0 +1,68 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  margin-top: 50px;
+}
+
+.form {
+  background: linear-gradient(to right, #00ff87,#3bffa5);
+  padding: 20px 0;
+
+}
+
+h2 {
+
+  display: inline-block;
+  font-size: 1.5em;
+  color: #38003C;
+  border-bottom: 3px solid #38003C;
+  padding: 0 2px;
+}
+
+input[type="checkbox"] {
+  margin-left: 5px;
+}
+
+select {
+  background-color: #38003C;
+  border: 0;
+  -moz-appearance: none;
+  color: white;
+  padding: 2.5px 5px 2.5px 5px;
+  outline: none;
+  margin: 5px 10px;
+}
+
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #fff;
+}
+option:not(:checked) {
+  color: white; /* prevent <option>s from becoming transparent as well */
+}
+
+select option {
+  background-color: #38003c;
+  color: white;
+}
+
+.match input[type="number"] {
+  width: 5%;
+  margin: 5px 10px;
+}
+
+.match-cont {
+  margin: 10px 0;
+}
+
+input[type="submit"] {
+  margin: 10px 0;
+}
